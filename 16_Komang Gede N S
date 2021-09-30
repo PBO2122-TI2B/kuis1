@@ -1,0 +1,71 @@
+import java.util.Scanner;
+public class Kuis1 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+Segitiga segitiga = new Segitiga();
+Persegi persegi = new Persegi();
+PersegiPanjang pp = new PersegiPanjang();
+Lingkaran lingkaran = new Lingkaran();
+JajarGenjang jajarGenjang = new JajarGenjang();
+
+System.out.println("=== Menu Bangun Datar ===");
+System.out.println("1. Menghitung Luas Dan Keliling Segitiga");
+System.out.println("2. Menghitung Luas Dan Keliling Persegi");
+System.out.println("3. Menghitung Luas Dan Keliling Persegi Panjang");
+System.out.println("4. Menghitung Luas Dan Keliling Lingkaran");
+System.out.println("5. Menghitung Luas Dan Keliling Jajargenjang");
+System.out.println("Pilih:");
+int pilih = sc.nextInt();
+switch(pilih){
+    case 1:
+    System.out.print("Masukan Alas : ");
+    int alas = sc.nextInt();
+    System.out.print("Masukan Tinggi : ");
+    int Tinggi = sc.nextInt();
+    System.out.print("Masukan Sisi Miring : ");
+    int sisiMiring = sc.nextInt();
+    System.out.print("Luas : ");
+    Double luas = sc.nextDouble();
+    System.out.print("Keliling : "); 
+    Double keliling = sc.nextDouble();
+
+
+    case 2:
+    System.out.print("Masukan Sisi : ");
+    int sisi = sc.nextInt();
+    System.out.print("Luas : ");
+    Double luas1 = sc.nextDouble();
+    System.out.print("Keliling : "); 
+    Double keliling1 = sc.nextDouble();
+    
+
+    case 3:
+    System.out.print("Masukan Panjang : ");
+    int panjang = sc.nextInt();
+    System.out.print("Masukan Lebar : ");
+    int lebar = sc.nextInt();
+    System.out.print("Luas : ");
+    Double luas2 = sc.nextDouble();
+    System.out.print("Keliling : "); 
+    Double keliling2 = sc.nextDouble();
+
+    case 4:
+    System.out.print("Masukan Jari Jari : ");
+    int jariJari = sc.nextInt();
+    System.out.print("Luas : ");
+    Double luas3 = sc.nextDouble();
+    System.out.print("Keliling : "); 
+    Double keliling3 = sc.nextDouble();
+    
+    case 5:
+    System.out.print("Masukan Alas : ");
+    int Alas = sc.nextInt();
+    System.out.print("Masukan Tinggi : ");
+    int tinggi = sc.nextInt();
+    System.out.print("Luas : ");
+    Double luas4 = sc.nextDouble();
+    System.out.print("Keliling : "); 
+    Double keliling4 = sc.nextDouble();
+}
+}
+}
